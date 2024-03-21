@@ -1,0 +1,42 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Entry-Test",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet-script",
+            "args": [
+                "Entry.csx", "Test", "--p4server", "p4d.perforce.com:1666", "--p4user", "t3_pro_01", "--stream", "scrum"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Test",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet-script",
+            "args": [
+                "Test.csx", "--p4server", "p4d.perforce.com:1666", "--p4user", "t3_pro_01", "--stream", "scrum"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false
+        },
+        {
+            "name": "ExportDataFromExcel",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet-script",
+            "args": [
+                "ExportDataFromExcel.csx", "--path", "Activity.xlsx"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false
+        },
+        
+    ]
+}
