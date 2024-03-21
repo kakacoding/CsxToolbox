@@ -1,5 +1,6 @@
 # C#脚本命令框架
-非常适合统一Unity项目的工具语言，也可通过宏和项目共用代码(参考ExportDataFromExcel.csx)。即改即用，不用重新发布。
+- 通过CSharp Script实现的一套命令行调用框架，支持传参提示。即改即用，不用发布。
+- 非常适合统一Unity项目的工具语言，还可通过宏共用项目代码(参考ExportDataFromExcel.csx)。
 
 # 环境
 
